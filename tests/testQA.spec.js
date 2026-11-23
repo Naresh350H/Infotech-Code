@@ -17,3 +17,5 @@ await page.goto('https://www.testautomationcentral.com/demo/dropdown.html');
 await page.locator('[data-target="multi-select-dropdown"]').click()
 await page.locator('.form-multiselect').selectOption([{index:0}, {index:2}, {index:4}]);
 })
+
+test('git push')
