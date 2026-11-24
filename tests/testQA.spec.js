@@ -21,6 +21,4 @@ await page.locator('.form-multiselect').selectOption([{index:0}, {index:2}, {ind
 test('git push')
 test('add')
 //git branch
-//git case 2 HKHRMS BRANCH 
-//git master 
-//Master
+//git feature changes
