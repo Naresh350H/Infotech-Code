@@ -11,6 +11,6 @@ await page.locator("[id='userName']").fill('Naresh kumar')
 await page.locator('#userEmail').fill('batman@gmail.com')
 await page.locator('#currentAddress').fill('Gotham city')
 await page.locator('#permanentAddress').fill('Gotham city')
-await page.getByText('submit').click
+page.getByText('submit').click
 })
 //add comment to a file
