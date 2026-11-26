@@ -9,7 +9,7 @@ await page.getByRole('combobox').selectOption([{value: "option2"}])
 test('styledDropdown', async({page})=>{
 await page.goto('https://www.testautomationcentral.com/demo/dropdown.html');
 await page.locator('[data-target="styled-dropdown"]').click();
-await page.getByRole('combobox').selectOption([{value: "option2"}])
+await page.getByRole('combobox').selectOption([{value: "option30"}])
 })
 
 test('multiDropdown', async({page})=>{
